@@ -10,6 +10,8 @@
 #define ROWSTAMP_PRE83
 #endif
 
+#include "access/htup_details.h"
+
 /*
  * Row version info
  */

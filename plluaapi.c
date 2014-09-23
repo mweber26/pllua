@@ -38,7 +38,7 @@ typedef struct luaP_Info {
 /* extended type info */
 typedef struct luaP_Typeinfo {
   int oid;
-  int2 len;
+  short len;
   char type;
   char align;
   bool byval;

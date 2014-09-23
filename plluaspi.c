@@ -6,6 +6,7 @@
  */
 
 #include "pllua.h"
+#include "rowstamp.h"
 
 #ifndef SPI_prepare_cursor
 #define SPI_prepare_cursor(cmd, nargs, argtypes, copts) \
